@@ -1,7 +1,10 @@
 public class Test{
     public static void main(String[] args){
+        int i=0;
         while (true){
-            int i++;
+            i++;
+            if(i>100)
+                break;
         }
     }
 }
